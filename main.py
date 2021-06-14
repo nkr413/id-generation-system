@@ -3,7 +3,7 @@ from datetime import datetime
 from random import randint
 
 def main():
-	symbols = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f","g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"]
+	symbols = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m"]
 
 	data = int(datetime.now().strftime('%Y%m%d%H%M%S'))
 	data = hex(data)
