@@ -7,11 +7,12 @@ def main():
 
 	data = int(datetime.now().strftime('%Y%m%d%H%M%S'))
 	data = hex(data)
+	
 	result = [i for i in data]
 	result.append("-")
 
 	yet = int(0)
-	if len(data) < 29: yet = 29 - len(data)
+	if len(data) < 39: yet = 39 - len(data)
 
 	for i in range(0, yet):
 		int_or_str = randint(0, 1)
